@@ -26,7 +26,7 @@ RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python3.11
 WORKDIR /opt/openl2m
 
 # download the latest OpenL2M from git:
-RUN git clone --depth 1 --no-single-branch https://github.com/openl2m/openl2m.git .
+RUN git clone --depth 1 --no-single-branch https://github.com/cryptechil/openl2m.git .
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
